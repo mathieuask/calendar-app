@@ -43,7 +43,7 @@ export default function Home() {
 
   return (
     <View style={styles.container}>
-      <Text style={styles.title}>Calendar.AI</Text>
+      <Text style={styles.title}>Calendar.Ai</Text>
       {/* Composant pour afficher la date et ouvrir la roulette */}
       <DateSelector selectedDate={selectedDate} onPress={handleDatePress} />
 
